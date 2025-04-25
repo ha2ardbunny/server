@@ -98,8 +98,3 @@ Return the summary in concise, third-person English.`;
     });
   }
 });
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
